@@ -32,6 +32,9 @@ While this was originally meant to be blue, it has been modified to instead foll
 }
 ```
 
+>[!NOTE]
+>The default config has a light blue colourscheme. Only the YASB bar makes use of border-radius, border-radius2, border-radius3 all the way through to fontWeight. By default this theme requires Segoe Fluent Icons (present by default on windows), JetBrainsMono NFP/JetBrainsMono Nerd Font Proppo, and Segoe UI Variable and regular Segoe UI. All Segoe fonts are available on windows, and Nerd Fonts can be downloaded from the website.
+
 and run `generate_formats.py` every time you change the config, to convert it to all the formats it needs to be.
 
 # Components
