@@ -1,4 +1,4 @@
-@import url('chrome://sine-mods/content/mytheme/config.css');
+@import url('config.css');
 
 #urlbar-container, zen-folder, #tabbrowser-tabs .tabbrowser-tab .tab-background:not(tab-group *):not(zen-folder *), tab-group, .unified-extensions-item-action-button {
     border-radius: 0 !important;
