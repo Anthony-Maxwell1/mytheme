@@ -1,3 +1,5 @@
+>[!INFO]
+>Because I couldn't find any docs on sine mod creation, I forked rasyidrafi's compact sidebar mod and detached it from the fork network. This is a completely different thing, and everything is unique, however rasyidrafi's mod has been used as the base.
 # My windows theme.
 Some things I've made over time for my windows laptop. These are all designed to be the same general theme, which are designed to replicate a modified blue version of [Shibuma by MrDLingters](https://github.com/amnweb/yasb-themes/tree/main/themes/92a8f104-ab80-45c0-95f1-82ebb2e12df6).
 
