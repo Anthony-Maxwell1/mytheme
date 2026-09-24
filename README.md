@@ -1,4 +1,4 @@
->[!INFO]
+>[!NOTE]
 >Because I couldn't find any docs on sine mod creation, I forked rasyidrafi's compact sidebar mod and detached it from the fork network. This is a completely different thing, and everything is unique, however rasyidrafi's mod has been used as the base.
 # My windows theme.
 Some things I've made over time for my windows laptop. These are all designed to be the same general theme, which are designed to replicate a modified blue version of [Shibuma by MrDLingters](https://github.com/amnweb/yasb-themes/tree/main/themes/92a8f104-ab80-45c0-95f1-82ebb2e12df6).
@@ -36,7 +36,7 @@ and run `generate_formats.py` every time you change the config, to convert it to
 
 # Components
 ## Zen browser
->[!INFO]
+>[!NOTE]
 >The zen theme is very unstable as it does not follow any good practices and was ragged together. It is bound to break at any time, and has only been tested with sidebar only and light mode enabled.
 
 A customization for the zen browser. Install it using sine, pointing at the `zen/` folder in this repo.
