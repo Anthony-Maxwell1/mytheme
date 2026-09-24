@@ -34,6 +34,9 @@ and run `generate_formats.py` every time you change the config, to convert it to
 
 # Components
 ## Zen browser
+>[!INFO]
+>The zen theme is very unstable as it does not follow any good practices and was ragged together. It is bound to break at any time, and has only been tested with sidebar only and light mode enabled.
+
 A customization for the zen browser. Install it using sine, pointing at the `zen/` folder in this repo.
 
 The mod will look for the config in the mod's folder, however the python script takes care of that for you. You need to instruct the script of the mod's folder location, by editing the first line of `generate_formats.py`: `SINE_MOD_LOCATION = Path(r"C:\Users\anthony.maxwell\AppData\Roaming\zen\Profiles\x7rsjsz9.Default (release)\chrome\sine-mods\custom")`. You want to replace `C:\Users\anthony.maxwell\AppData\Roaming\zen\Profiles\x7rsjsz9.Default (release)\chrome\sine-mods\custom` with the path to your mod folder.
