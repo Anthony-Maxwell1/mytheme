@@ -17,8 +17,20 @@
     border-radius: 0 !important;
     font-family: var(--system-font);
     transform: scaleX(130%);
-/*     height: 100%; */
     margin-block: 0 !important;
+}
+
+#tabs-newtab-button {
+    border-radius: 0px !important;
+    background-color: var(--hover) !important;
+    transition: background-color 0.1s ease-in-out !important;
+    border: 1px var(--border) solid !important;
+    font-family: var(--system-font);
+    color: var(--system-text) !important;
+}
+
+#tabs-newtab-button:not(:hover) {
+    background-color: transparent !important;
 }
 
 :root {
@@ -45,7 +57,7 @@ zen-folder {
 }
  */
 
-.unified-extensions-item-action-button, .tabbrowser-tab:not([visuallyselected]) .tab-background, #urlbar-container, .tab-group-label-container, zen-folder .tab-group-label-container {
+.unified-extensions-item-action-button, .tabbrowser-tab:not([visuallyselected]) .tab-background, #urlbar-container:not(has(#urlbar[breakout-extend])), .tab-group-label-container, zen-folder .tab-group-label-container {
     background-color: var(--hover) !important;
     transition: background-color 0.1s ease-in-out;
 }
@@ -56,10 +68,6 @@ zen-folder {
 
 tab {
     font-family: var(--system-font);
-}
-
-#urlbar-container {
-    --urlbar-container-height: 35px !important;
 }
 
 .workspace-arrowscrollbox .zen-workspace-tabs-section.zen-workspace-pinned-tabs-section {
@@ -92,12 +100,41 @@ tab-group {
   }
 }
 
+#urlbar-container:not(:has(.urlbar-input-container[pageproxystate="invalid"])) {
+    --urlbar-container-height: 39px !important;
+}
+
+#urlbar[breakout-extend]:not([zen-newtab]) {
+/*     transform: translateX(2px); */
+    transform: translate(-1px, -3px) !important;
+}
+
+#urlbar[breakout-extend] .urlbar-background {
+    border-radius: 0 !important;
+    background-color: var(--background) !important;
+/*     box-shadow: 10px 10px var(--border) !important; */
+    box-shadow: 2px 2px 2.5px 2.5px var(--border) !important;
+    outline-color: var(--border) !important;
+/*     outline-width: 5px !important; */
+    outline-width: 2px !important;
+/*     outline-style: outset !important; */
+}
+
+.urlbarView-body-inner {
+    border-color: var(--border) !important;
+}
+
+#urlbar:not([breakout-extend]) .urlbar-background {
+    background: none !important;
+}
+
 /* .toolbarbutton-1:not(#tabs-newtab-button), .urlbar-page-action, .identity-box-button {
     background: red !imporant;
 } */
-.urlbar-background, #urlbar-container:not(:hover), zen-folder .tab-group-label-container:not(:hover), .tabbrowser-tab:not(:hover):not([visuallyselected]) .tab-background, .tab-group-label-container, .unified-extensions-item-action-button:not(:hover) {
+#urlbar-container:not(:hover):not([breakout-extend]), zen-folder .tab-group-label-container:not(:hover), .tabbrowser-tab:not(:hover):not([visuallyselected]) .tab-background, .tab-group-label-container, .unified-extensions-item-action-button:not(:hover) {
     background: none !important;
 }
+
 /* 
 #urlbar {
     background: transparent !important;
