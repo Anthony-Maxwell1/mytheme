@@ -73,7 +73,7 @@ Press `ctrl`+`shift`+`Y` and click on "Open mod folder"
 
 <img width="503.5" height="246" alt="image" src="https://github.com/user-attachments/assets/dbe87ec0-0abb-42f2-9a1c-56feee6d9c81" />
 
-Click on "My Theme" and copy the path that it opens in file explorer. This is the path for the python file. You can now go back and turn off the command palette.
+Click on "Blue Theme" and copy the path that it opens in file explorer. This is the path for the python file. You can now go back and turn off the command palette.
 
 </details>
 
