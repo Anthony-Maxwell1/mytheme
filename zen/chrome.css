@@ -111,7 +111,7 @@ tab-group {
 /*     outline-style: outset !important; */
 }
 
-#page-action-buttons > *:not(:empty), .urlbar-page-action, #identity-box {
+#page-action-buttons > *:not(:empty), .urlbar-page-action,  #urlbar:not([breakout-extend]) #identity-box {
     background-color: var(--hover) !important;
     border-radius: 0 !important;
     border-color: var(--border) !important;
@@ -121,16 +121,18 @@ tab-group {
     font-family: var(--system-font);
     transition: background-color 0.1s ease-in-out,
         border-color 0.5s ease-in-out !important;
-    max-height: var(--urlbar-basic-component-size) !important;
-    max-width: var(--urlbar-basic-component-size) !important;
 }
 
-#page-action-buttons > *:not(:empty):not(:hover), .urlbar-page-action:not(:hover), #identity-box:not(:hover) {
+#page-action-buttons > *:not(:empty):not(:hover), .urlbar-page-action:not(:hover), #urlbar:not([breakout-extend]) .urlbar-input-container #identity-box:not(:hover) {
     background-color: transparent !important;
 }
 
-toolbox:not(:hover) #identity-box, toolbox:not(:hover) .urlbar-page-action {
+toolbox:not(:hover) #urlbar:not([breakout-extend]) #identity-box, toolbox:not(:hover) .urlbar-page-action#zen-copy-url-button {
     border-color: transparent !important;
+}
+
+.urlbar-input-container {
+    gap: 4px !important;
 }
 
 #urlbar-container:not(:has(.urlbar-input-container[pageproxystate="invalid"])) {
@@ -158,7 +160,8 @@ toolbox:not(:hover) #identity-box, toolbox:not(:hover) .urlbar-page-action {
 #urlbar-container:has(#identity-box:hover),
 zen-folder .tab-group-label-container:not(:hover), 
 .tabbrowser-tab:not(:hover):not([visuallyselected]) .tab-background, 
-.tab-group-label-container, 
+.tab-group-label-container,
+.urlbar-page-action:not(:hover),
 .unified-extensions-item-action-button:not(:hover) {     
     background: transparent !important; 
 }
