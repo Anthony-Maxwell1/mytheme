@@ -1,14 +1,14 @@
 {
   "id": "34c7fedd-aaf8-4194-99bf-ab52692299ed",
-  "name": "My Theme",
-  "description": "My theme.",
-  "homepage": "https://github.com/Anthony-Maxwell1/mytheme/",
-  "image": "https://github.com/Anthony-Maxwell1/mytheme/blob/main/zen/image.png?raw=true",
+  "name": "Blue Theme",
+  "description": "My (originally) blue theme, however any colour palette can be chosen.",
+  "homepage": "https://github.com/Anthony-Maxwell1/bluetheme/",
+  "image": "https://github.com/Anthony-Maxwell1/bluetheme/blob/main/zen/image.png?raw=true",
   "style": {
-    "chrome": "https://raw.githubusercontent.com/Anthony-Maxwell1/mytheme/refs/heads/main/zen/chrome.css"
+    "chrome": "https://raw.githubusercontent.com/Anthony-Maxwell1/bluetheme/refs/heads/main/zen/chrome.css"
   },
-  "readme": "https://raw.githubusercontent.com/Anthony-Maxwell1/mytheme/refs/heads/main/README.md",
-  "preferences": "https://raw.githubusercontent.com/Anthony-Maxwell1/mytheme/refs/head/main/zen/preferences.json",
+  "readme": "https://raw.githubusercontent.com/Anthony-Maxwell1/bluetheme/refs/heads/main/README.md",
+  "preferences": "https://raw.githubusercontent.com/Anthony-Maxwell1/bluetheme/refs/head/main/zen/preferences.json",
   "author": "thatdev",
   "version": "1.0.1",
   "tags": ["UI"],
