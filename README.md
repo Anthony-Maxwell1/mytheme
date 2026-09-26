@@ -1,11 +1,11 @@
 >[!NOTE]
 >Because I couldn't find any docs on sine mod creation, I forked rasyidrafi's compact sidebar mod and detached it from the fork network. This is a completely different thing, and everything is unique, however rasyidrafi's mod has been used as the base.
-# My windows theme.
+# Blue theme.
 <img width="695" height="571" alt="image" src="https://github.com/user-attachments/assets/dbb358ea-8521-4c8b-8084-042942f4c3dc" />
 
 _Above: YASB and Zen theme, paired with Transparent Zen by sameerasw_
 
-Some things I've made over time for my windows laptop. These are all designed to be the same general theme, which are designed to replicate a modified blue version of [Shibuma by MrDLingters](https://github.com/amnweb/yasb-themes/tree/main/themes/92a8f104-ab80-45c0-95f1-82ebb2e12df6).
+A theme by me. These are all designed to be the same general theme, which are designed to replicate a modified blue version of [Shibuma by MrDLingters](https://github.com/amnweb/yasb-themes/tree/main/themes/92a8f104-ab80-45c0-95f1-82ebb2e12df6).
 
 While this was originally meant to be blue, it has been modified to instead follow a config. You place your colors (and fonts) into config.json at the root, as such:
 
